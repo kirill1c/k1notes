@@ -68,11 +68,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    //Dagger - Hilt
-    kapt("groupId:artifactId:version")
-    implementation("com.google.dagger:hilt-android:2.44")
-    kapt("com.google.dagger:hilt-android-compiler:2.44")
-
     // Room
     implementation("androidx.room:room-runtime:2.3.0")
     kapt("androidx.room:room-compiler:2.3.0")
@@ -89,6 +84,10 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.4.0-alpha09")
     implementation("androidx.compose.material:material-icons-extended")
     implementation("androidx.hilt:hilt-navigation-compose:1.0.0-alpha03")
+
+    //Dagger - Hilt
+    implementation("com.google.dagger:hilt-android:2.44")
+    kapt("com.google.dagger:hilt-android-compiler:2.44")
 }
 kapt {
     correctErrorTypes = true

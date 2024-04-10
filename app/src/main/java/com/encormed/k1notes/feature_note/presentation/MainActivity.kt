@@ -1,4 +1,4 @@
-package com.encormed.k1notes
+package com.encormed.k1notes.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
